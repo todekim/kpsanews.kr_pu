@@ -255,6 +255,21 @@ header.on .menu-btn .ico span{
     }
 }
 
+.mt-40{
+    margin-top: 40px !important;
+}
+
+.mt-20{
+    margin-top: 20px !important;
+}
+
+.mb-40{
+    margin-bottom: 40px !important;
+}
+
+.mb-20{
+    margin-bottom: 20px !important;
+}
 
 
 /* #newsletter-modal .modal-dialog-centered {
