@@ -429,6 +429,53 @@
     font-weight: 500;
 }
 
+#c1-cont .c1_table1 caption,
+#c1-cont .c1_table2 caption,
+#c1-cont .c1_table3 caption{
+    font-size:24px;
+    color:#333;
+}
+
+#c1-cont .c1_table1 thead,
+#c1-cont .c1_table2 thead,
+#c1-cont .c1_table3 thead{
+    background-color:#155db4;
+    color:white;
+    font-weight:700;
+} 
+
+#c1-cont .c1_table1 caption,
+#c1-cont .c1_table2 caption,
+#c1-cont .c1_table3 caption{
+    font-weight: 700;
+    text-align : center; 
+    margin-top : 40px; 
+    margin-bottom : 40px;
+}
+
+
+#c1-cont .c1_table1 .br-ddd,
+#c1-cont .c1_table2 .br-ddd,
+#c1-cont .c1_table3 .br-ddd{
+    border-right: 1px solid #ddd;
+}
+
+#c1-cont .c1_table1 .contents,
+#c1-cont .c1_table2 .contents,
+#c1-cont .c1_table3 .contents{
+    text-align:left;
+}
+
+#c1-cont .c1_table1 td:last-child .circle,
+#c1-cont .c1_table2 td:last-child .circle,
+#c1-cont .c1_table3 td:last-child .circle{
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border : 1px solid #ccc;
+}
+
 @media (max-width:575px) {
     #c1-cont article:not(:last-of-type){
         margin-bottom: 60px;
