@@ -431,13 +431,6 @@
 
 /* 표 작업 table css*/
 
-.br-ddd
-
-.a1_table1,
-.a1_table2{
-    display:table;
-}
-
 .a1_table1 tbody > tr:nth-child(4) > td:nth-child(2),
 .a1_table1 tbody > tr:nth-child(4) > td:nth-child(3),
 .a1_table1 tbody > tr:nth-child(5) > td:nth-child(2),
@@ -464,7 +457,7 @@
 .a1_table1 tbody > tr:nth-child(15) > td:nth-child(3),
 .a1_table1 tbody > tr:nth-child(16) > td:nth-child(2),
 .a1_table1 tbody > tr:nth-child(16) > td:nth-child(3){
-    background-color:#c4ffda;
+    background-color:#bec310;
 }
 
 
@@ -476,9 +469,19 @@
     color:#333;
 }
 
-.c1_table1 caption,
-.c1_table2 caption,
-.c1_table3 caption{
+.a1_table1 thead,
+.a1_table2 thead,
+#c1-cont .c1_table1 thead,
+#c1-cont .c1_table2 thead,
+#c1-cont .c1_table3 thead{
+    background-color:#155db4;
+    color:white;
+    font-weight:700;
+} 
+
+#c1-cont .c1_table1 caption,
+#c1-cont .c1_table2 caption,
+#c1-cont .c1_table3 caption{
     font-weight: 700;
     text-align : center; 
     margin-top : 40px; 
@@ -486,41 +489,21 @@
 }
 
 
-/* thead 배경색 */
-.a1_table1 thead,
-.a1_table2 thead,
-.c1_table1 thead,
-.c1_table2 thead,
-.c1_table3 thead{
-    background-color:#155db4;
-    color:white;
-    font-weight:700;
-} 
-
-.c2_table1 thead,
-.c2_table2 thead{
-    background-color: #009c59;
-    color:white;
-    font-weight:700;
+#c1-cont .c1_table1 .br-ddd,
+#c1-cont .c1_table2 .br-ddd,
+#c1-cont .c1_table3 .br-ddd{
+    border-right: 1px solid #ddd;
 }
 
-.c2_table1 ul{
-    list-style : disc;
-}
-
-.br-ddd{
-    border-right: 1px solid #ddd !important;
-}
-
-.c1_table1 .contents,
-.c1_table2 .contents,
-.c1_table3 .contents{
+#c1-cont .c1_table1 .contents,
+#c1-cont .c1_table2 .contents,
+#c1-cont .c1_table3 .contents{
     text-align:left;
 }
 
-.c1_table1 td:last-child .circle,
-.c1_table2 td:last-child .circle,
-.c1_table3 td:last-child .circle{
+#c1-cont .c1_table1 td:last-child .circle,
+#c1-cont .c1_table2 td:last-child .circle,
+#c1-cont .c1_table3 td:last-child .circle{
     display:inline-block;
     width: 10px;
     height: 10px;
@@ -877,16 +860,6 @@
         background-size: auto 13px;
         transform: translate(50%, calc(50% + 6px)) rotate(90deg);
     }
-}
-
-#sub-c2 .link,
-#sub-c3 .link{
-    padding:20px 40px;
-    border-radius: 50px;
-    background-color: #155db4;
-    color:white;
-    font-weight:700;
-    margin:0 auto;
 }
 
 #sub-d1 .point-tit{
