@@ -429,6 +429,39 @@
     font-weight: 500;
 }
 
+/* 표 작업 table css*/
+
+.a1_table1 tbody > tr:nth-child(4) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(4) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(5) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(5) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(6) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(6) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(7) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(7) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(8) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(8) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(9) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(9) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(10) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(10) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(11) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(11) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(12) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(12) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(13) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(13) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(14) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(14) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(15) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(15) > td:nth-child(3),
+.a1_table1 tbody > tr:nth-child(16) > td:nth-child(2),
+.a1_table1 tbody > tr:nth-child(16) > td:nth-child(3){
+    background-color:#bec310;
+}
+
+
+
 #c1-cont .c1_table1 caption,
 #c1-cont .c1_table2 caption,
 #c1-cont .c1_table3 caption{
@@ -436,6 +469,8 @@
     color:#333;
 }
 
+.a1_table1 thead,
+.a1_table2 thead,
 #c1-cont .c1_table1 thead,
 #c1-cont .c1_table2 thead,
 #c1-cont .c1_table3 thead{
