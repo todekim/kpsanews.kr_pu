@@ -922,6 +922,25 @@
     font-weight: 700;
 }
 
+#sub-d1 .company-info-box{
+    border:1px solid #ddd;
+    padding:20px;
+}
+
+#sub-d1 .company-info-box div:first-child{
+    width:17%;
+    border-right:1px solid #ddd;
+}
+
+#sub-d1 .company-info-box div:last-child{
+    margin-left:20px;
+}
+
+#sub-d1 .company-info-box div:last-child img{
+    max-width:30px;
+    margin-right:10px;
+}
+
 @media (max-width: 767px) {
     #sub-d1 .point-tit li{
         padding: 2px 15px;
