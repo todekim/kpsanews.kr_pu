@@ -635,8 +635,7 @@ header.active .menu-btn .ico span{
 }
 
 #main .main-sec3 .row>li{
-    padding-left: 18px;
-    padding-right: 18px;
+    padding:18px;
 }
 
 #main .main-sec3 .img{
@@ -668,7 +667,7 @@ header.active .menu-btn .ico span{
 
 #main .main-sec3 .txt p{
     font-family: 'Noto sans KR', sans-serif;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 #main .main-sec3 .row>li .txt::after{
