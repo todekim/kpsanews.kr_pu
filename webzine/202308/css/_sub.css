@@ -431,15 +431,15 @@
 
 /* 표 작업 table css*/
 
-.br-ddd
+.br-ddd{
+    border : 1px solid #ddd;
+}
 
 .a1_table1,
 .a1_table2{
     display:table;
 }
 
-.a1_table1 tbody > tr:nth-child(4) > td:nth-child(2),
-.a1_table1 tbody > tr:nth-child(4) > td:nth-child(3),
 .a1_table1 tbody > tr:nth-child(5) > td:nth-child(2),
 .a1_table1 tbody > tr:nth-child(5) > td:nth-child(3),
 .a1_table1 tbody > tr:nth-child(6) > td:nth-child(2),
