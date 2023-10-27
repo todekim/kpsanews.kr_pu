@@ -72,7 +72,7 @@ header.active .menu-btn .ico span{
     height: 100%;
     z-index: -1;
     animation: mv-ani both 30s;
-    background: url(/webzine/202306/images/index/main_visual.jpg) center / cover no-repeat;
+    background: url(/webzine/202308/images/index/main_visual.jpg) center / cover no-repeat;
 }
 
 @keyframes mv-ani {
@@ -489,6 +489,7 @@ header.active .menu-btn .ico span{
 #main .main-sec2 .row>li{
     padding-left: 18px;
     padding-right: 18px;
+    margin: 20px 0;
 }
 
 #main .main-sec2 li .box{
@@ -634,8 +635,7 @@ header.active .menu-btn .ico span{
 }
 
 #main .main-sec3 .row>li{
-    padding-left: 18px;
-    padding-right: 18px;
+    padding:18px;
 }
 
 #main .main-sec3 .img{
@@ -667,7 +667,7 @@ header.active .menu-btn .ico span{
 
 #main .main-sec3 .txt p{
     font-family: 'Noto sans KR', sans-serif;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 #main .main-sec3 .row>li .txt::after{

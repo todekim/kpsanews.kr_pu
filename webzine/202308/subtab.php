@@ -12,9 +12,12 @@
 <?php if ($bo_table == 'd1') { ?>
 
 <div class="sub-tab inner">
-    <a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=d1&wr_id=4&pu_id=<?php echo $pu_id; ?>">ICT컴플라이언스</a>
-    <a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=d1&wr_id=5&pu_id=<?php echo $pu_id; ?>">한일전자</a>
-    <a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=d1&wr_id=6&pu_id=<?php echo $pu_id; ?>">공감중문</a>
+    <a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=d1&wr_id=4&pu_id=<?php echo $pu_id; ?>">(주)열린문</a>
+    <a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=d1&wr_id=5&pu_id=<?php echo $pu_id; ?>">(주)유닉스</a>
+    <a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=d1&wr_id=6&pu_id=<?php echo $pu_id; ?>">(주)아하</a>
+    <a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=d1&wr_id=6&pu_id=<?php echo $pu_id; ?>">(주)세홍</a>
+    <a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=d1&wr_id=6&pu_id=<?php echo $pu_id; ?>">(주)인익스</a>
+    <a href="<?php echo G5_BBS_URL;?>/board.php?bo_table=d1&wr_id=6&pu_id=<?php echo $pu_id; ?>">실버팍스</a>
 </div>
 
 <?php } ?> 
